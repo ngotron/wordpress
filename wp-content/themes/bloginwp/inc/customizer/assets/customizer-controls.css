@@ -1,0 +1,226 @@
+#accordion-section-bloginwp_about_section h3.accordion-section-title {
+    background-color: #2271b1;
+    color: #ffffff;
+}
+
+/***************************
+    Info Box control
+****************************/
+.customize-info-box-control .info-box-label {
+    margin: 0;
+    font-size: 13px;
+}
+.customize-info-box-control .info-box-icon {
+    margin-right: 6px;
+}
+
+.customize-info-box-control .info-box-description {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.customize-info-box-control .info-box-button {
+    display: block;
+    text-align: center;
+}
+
+/***************************
+    Responsive Box control
+****************************/
+.customize-responsive-box-control {
+    position: relative;
+}
+
+.customize-responsive-box-control .responsive-trigger {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+/**********************************
+    Color Picker Styles
+**********************************/
+.customize-color-group-picker-control .customize-control-title {
+    font-size: 12px;
+}
+
+.customize-advanced-color-group-control .control-header .control-header-trigger,
+.customize-color-group-picker-control .control-header .control-header-trigger,
+.customize-control-color-picker .control-header .control-header-trigger {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customize-advanced-color-group-control .control-header .component-color-indicator,
+.customize-color-group-picker-control .control-header .component-color-indicator,
+.customize-control-color-picker .control-header .component-color-indicator {
+    cursor: pointer;
+    transform: scale(1);
+    height: 30px;
+    width: 30px;
+    box-shadow: rgb(255 255 255) 0px 0px 3px 3px;
+    border-radius: 50%;
+}
+
+.customize-advanced-color-group-control .control-header .component-color-indicator:hover,
+.customize-color-group-picker-control .control-header .component-color-indicator:hover,
+.customize-control-color-picker .control-header .component-color-indicator:hover {
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+.customize-advanced-color-group-control .control-header .component-color-indicator.null-color,
+.customize-color-group-picker-control .control-header .component-color-indicator.null-color,
+.customize-control-color-picker .control-header .component-color-indicator.null-color{
+    position: relative;
+    transition: none;
+    border-radius: 50%;
+    padding: 0;
+    background-image: linear-gradient(45deg,#ddd 25%,transparent 0),linear-gradient(-45deg,#ddd 25%,transparent 0),linear-gradient(45deg,transparent 75%,#ddd 0),linear-gradient(-45deg,transparent 75%,#ddd 0);
+    background-size: 10px 10px;
+    background-position: 0 0,0 5px,5px -5px,-5px 0;
+}
+
+.customize-control-advanced-color-group,
+.customize-control-color-group-picker, 
+.customize-control-color-picker {
+    margin-bottom: 22px;
+}
+
+.customize-control-advanced-color-group .customize-control-title,
+.customize-control-color-group-picker .customize-control-title, 
+.customize-control-color-picker .customize-control-title {
+    line-height: 2;
+}
+
+/**********************************
+        Border Box control 
+***********************************/
+.customize-border-box-control .control-header .control-header-trigger {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customize-border-box-control .control-header .control-header-trigger .border-indicator {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transform: scale(1);
+    align-items: center;
+    background: #ffffff;
+    height: 30px;
+    width: 60px;
+    box-shadow: rgb(255 255 255) 0px 0px 3px 3px;
+}
+
+.customize-border-box-control .control-header .control-header-trigger .border-indicator > span {
+    border: 1px dashed rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14px;
+    width: 48px;
+}
+
+.customize-border-box-control .control-header .control-header-trigger .border-indicator:hover {
+    transform: scale(1.05);
+}
+
+.customize-border-box-control .inner-border-field-wrap {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.customize-border-box-control .inner-border-field-wrap .inner-border-field {
+    height: 38px;
+    padding: 8px;
+}
+
+/**********************************
+    Tab Panel Styles
+**********************************/
+.bloginwp-group-tab-panel .components-tab-panel__tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6px;
+    background: #ffffff;
+}
+
+.bloginwp-group-tab-panel .components-tab-panel__tabs .components-tab-panel__tabs-item {
+    flex: 1 1 auto;
+    border: 1px solid #d2d2d2;
+    display: flex;
+    justify-content: center;
+}
+
+.bloginwp-group-tab-panel .components-tab-panel__tabs .active-tab {
+    background-color: #007cba;
+    color: #ffffff;
+}
+
+.component-color-indicator {
+    cursor: pointer;
+}
+
+#accordion-panel-bloginwp_innerpages_settings_panel,
+#accordion-section-background_image,
+#accordion-section-footer_three_column_section{
+    margin-top: 15px;
+}
+
+.control-header .components-dropdown {
+    padding: 0 4px;
+    display: inline-block;
+}
+
+/**********************************
+    Section Tab Styles
+**********************************/
+.customize-section-tab-control .components-tab-panel__tabs {
+    display: -webkit-box;
+    display: flex;
+    margin-top: -5px;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 0;
+    margin-bottom: 0;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    margin-bottom: 0;
+}
+
+.customize-section-tab-control .components-tab-panel__tabs button {
+    -webkit-box-flex: 1;
+    flex: 1 1 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-transform: uppercase;
+    height: 40px;
+    margin: 0;
+    box-sizing: content-box;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    border-top: 2px solid transparent;
+    border-radius: 0;
+}
+
+.customize-section-tab-control .components-tab-panel__tabs button.active-tab {
+    border-top-color: #0071a1;
+    color: #0073aa;
+    background-image: linear-gradient( 180deg, #f3f5f6, #ffffff);
+}
+
+#customize-control-radio-image img {
+    width: 40%;
+}

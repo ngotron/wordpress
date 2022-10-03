@@ -1,0 +1,92 @@
+.customize-control-typography {
+    background-color: #ffffff;
+    position: relative;
+}
+
+.customize-control-typography .heading-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.customize-control-typography .content-wrap.close {
+    display: none;
+}
+
+.customize-control-typography .content-wrap .open {
+    display: block;
+}
+
+.customize-control-typography .popup-trigger {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #e1dede;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.customize-control-typography .popup-trigger.open {
+    color: #ffffff;
+    background-color: #0073aa;
+}
+
+.customize-control-typography .content-wrap.show {
+    position: unset;
+}
+
+.customize-control-typography .content-wrap {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 70%);
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    padding: 10px;
+    width: calc(100% - 20px);
+}
+
+.customize-control-typography .content-wrap:before {
+    border: 8px solid transparent;
+    border-bottom-color: #fff;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    right: 17px;
+    top: -15px;
+}
+
+#customize-theme-controls .control-section.open {
+    height: 100%;
+}
+
+.customize-control-typography .typography-inherit-tab .tab-title {
+    font-style: italic;
+}
+
+.customize-control-typography .typography-inherit-tab .tab-content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.customize-control-typography .typography-inherit-tab .tab-content .tab-item {
+    flex: 1 1 auto;
+    display: flex;
+    color: #007cba;
+    justify-content: center;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid #d2d2d2;
+    border-radius: 2px 0 0 2px;
+}
+
+.customize-control-typography .typography-inherit-tab .tab-content .tab-item.isActive {
+    background: #007cba;
+    color: #ffffff;
+}
+
+.select2-dropdown.typo-select-increaseZindex {
+    z-index: 999999 ;
+}

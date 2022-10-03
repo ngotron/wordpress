@@ -1,0 +1,19 @@
+.customize-control-tab-control .section-tab-wrap {
+    display: flex;
+}
+
+.customize-control-tab-control .section-tab-wrap .tab-item {
+    flex: 1 1 auto;
+    display: flex;
+    color: #007cba;
+    justify-content: center;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #d2d2d2;
+    border-radius: 2px 0 0 2px;
+}
+
+.customize-control-tab-control .section-tab-wrap .tab-item.isActive {
+    background: #007cba;
+    color: #ffffff;
+}

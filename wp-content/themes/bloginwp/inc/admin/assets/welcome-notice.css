@@ -1,0 +1,36 @@
+/*---------------------------
+   Welcome Notice Styling
+----------------------------*/
+.bloginwp-welcome-notice {
+    font-family: cursive;
+}
+
+.bloginwp-welcome-notice .notice-content-wrap {
+    display: flex;
+}
+
+.bloginwp-welcome-notice .notice-highlight {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.bloginwp-welcome-notice .notice-content {
+    padding: 0px 20px;
+}
+
+.bloginwp-welcome-notice .notice-actions {
+    padding-top: 15px;
+}
+
+.bloginwp-welcome-notice .notice-actions a {
+    padding: 6px 22px;
+}
+
+.bloginwp-welcome-notice .notice-dismiss-button {
+    text-align: right;
+    padding-bottom: 10px;
+ }
+ 
+ .bloginwp-welcome-notice .notice-dismiss-button a {
+    color: #ff0000;
+ }

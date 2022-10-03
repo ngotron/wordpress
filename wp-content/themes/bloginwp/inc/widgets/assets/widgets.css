@@ -1,0 +1,65 @@
+/**
+ * Widegts styling
+ *
+ */
+ .bloginwp-widget-field {
+   margin: 1em 0;
+ }
+
+ .bloginwp-widget-field .title {
+    font-size: small;
+    margin: 4px 0;
+ }
+
+ .bloginwp-widget-field .description {
+   font-style: italic;
+   padding: 0!important;
+ }
+
+ .bloginwp-multicheckbox-field .multicheckbox-content {
+   border: 1px solid #c3c4c7;
+   padding: 8px 10px;
+   min-height: 200px;
+   overflow-y: scroll;
+ }
+
+ .bloginwp-multicheckbox-field .multicheckbox-content .multicheckbox-single-item {
+   padding: 5px;
+ }
+
+ .bloginwp-widget-field input,
+ .bloginwp-widget-field select,
+ .bloginwp-widget-field textarea {
+   border-radius: 0;
+ }
+
+ .bloginwp-upload-field .upload-trigger.selected,
+ .bloginwp-upload-field .upload-buttons img.nothasImage,
+ .bloginwp-upload-field .upload-buttons.not-selected {
+   display: none;
+ }
+
+ .bloginwp-upload-field .upload-trigger {
+    background-color: #f0f0f1;
+    color: #2c3338;
+    border: 1px dashed #c3c4c7;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 1.6;
+    padding: 9px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.bloginwp-upload-field .upload-trigger:hover {
+  background-color: #fff;
+}
+
+.bloginwp-upload-field .upload-buttons button {
+  margin-top: 12px;
+  border-color: #d63638;
+}
+.bloginwp-upload-field .upload-buttons img{
+  width: 100%;
+}
