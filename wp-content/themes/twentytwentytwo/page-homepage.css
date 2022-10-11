@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nar_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.menu_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_left img {
+    width: 200px;
+    height: auto;
+}
+
+.menu_left p {
+    margin-left: 40px;
+}
+
+.menu_midle {
+
+    display: flex;
+}
+
+.menu_midle a {
+    margin-right: 20px;
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+}
+
+.fa-skype {
+    margin-right: 50px;
+}
+
+.fa-facebook {
+    color: rgba(25, 25, 192, 0.616);
+}
+
+.fa-tiktok {
+    color: black;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.menu_midle p {
+    margin-left: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(10 1 1 / 91%);
+    border-radius: 10px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.menu_midle p>a>i {
+    margin-right: 10px;
+    color: red;
+}
+
+.menu_right {
+    display: flex;
+}
+
+.menu_right p:first-child {
+    color: rgb(35, 35, 105);
+    font-size: 20px;
+    font: bold;
+    margin: auto;
+}
+
+.menu_right input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.menu_right p:last-child {
+    margin-left: 100px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.fa-magnifying-glass {
+    color: rgb(29, 29, 107);
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: rgb(27, 27, 107);
+    height: 50px;
+    color: #fff;
+}
+
+.fa-house {
+    margin-right: 10px;
+}
+
+.fa-bars {
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    width: 1400px;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0px auto;
+
+}
+
+.container__left {
+    flex-basis: 50%;
+}
+
+.container__right {
+    flex-basis: 50%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container__right {
+    display: flex;
+}
+
+.container__left--child div {
+    margin-top: 10px;
+
+}

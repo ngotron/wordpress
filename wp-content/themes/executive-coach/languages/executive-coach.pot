@@ -1,0 +1,224 @@
+# <!=Copyright (C) 2022 Blossom Themes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Executive Coach 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/executive-coach\n"
+"POT-Creation-Date: 2022-09-22 04:33:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:84 functions.php:161 functions.php:459
+msgid "Contact"
+msgstr ""
+
+#: functions.php:91
+msgid "Information Links"
+msgstr ""
+
+#: functions.php:105
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:107
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:126 functions.php:147
+msgid "Header Layout"
+msgstr ""
+
+#: functions.php:148
+msgid "Choose the layout of the header for your site."
+msgstr ""
+
+#: functions.php:170 functions.php:193
+msgid "Header Contact Button"
+msgstr ""
+
+#: functions.php:204
+msgid "Static Banner Layout"
+msgstr ""
+
+#: functions.php:224
+msgid "Static CTA Banner Layout"
+msgstr ""
+
+#: functions.php:225
+msgid "Choose the layout of the static banner for your site."
+msgstr ""
+
+#: functions.php:237
+msgid "Appearance Settings"
+msgstr ""
+
+#: functions.php:240
+msgid "Change color and body background."
+msgstr ""
+
+#: functions.php:248
+msgid "Typography"
+msgstr ""
+
+#: functions.php:271
+msgid "Primary Font"
+msgstr ""
+
+#: functions.php:272
+msgid "Primary font of the site."
+msgstr ""
+
+#: functions.php:292
+msgid "Secondary Font"
+msgstr ""
+
+#: functions.php:293
+msgid "Secondary font of the site."
+msgstr ""
+
+#: functions.php:314
+msgid "Tertiary Font"
+msgstr ""
+
+#: functions.php:336
+msgid "Font Size"
+msgstr ""
+
+#: functions.php:337
+msgid "Change the font size of your site."
+msgstr ""
+
+#: functions.php:361
+msgid "Load Google Fonts Locally"
+msgstr ""
+
+#: functions.php:362
+msgid ""
+"Enable to load google fonts from your own server instead from google's CDN. "
+"This solves privacy concerns with Google's CDN and their sometimes "
+"less-than-transparent policies."
+msgstr ""
+
+#: functions.php:381
+msgid "Preload Local Fonts"
+msgstr ""
+
+#: functions.php:382
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr ""
+
+#: functions.php:390
+msgid "Click the button to reset the local fonts cache"
+msgstr ""
+
+#: functions.php:392
+msgid "Flush Local Font Files"
+msgstr ""
+
+#: functions.php:406
+msgid "Flush Local Fonts Cache"
+msgstr ""
+
+#: functions.php:558
+msgid " Executive Coach | Developed By "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blossom Themes"
+msgstr ""
+
+#: functions.php:560
+msgid " Powered by %s. "
+msgstr ""
+
+#: functions.php:560
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: sections/banner.php:15
+msgid "Read More"
+msgstr ""
+
+#: sections/banner.php:16
+msgid "Get Started"
+msgstr ""
+
+#: sections/banner.php:18
+msgid "Know More"
+msgstr ""
+
+#: sections/banner.php:22
+msgid "Be The Spark That Lights Up The Room"
+msgstr ""
+
+#: sections/banner.php:23
+msgid ""
+"To empower women to make a positive impact on the world with fiery passion, "
+"unbridled self-belief, and head-turning style."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Executive Coach"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blossomthemes.com/wordpress-themes/executive-coach/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Executive Coach is a WordPress theme designed specifically for coaches, "
+"mentors, therapists, speakers, leaders, counsellors, copywriters, course "
+"creators, medical practitioners and entrepreneurs who want to generate more "
+"leads. Using this theme, you can build a professional website to sell your "
+"services and introduce yourself. The theme includes sections like Banner "
+"with Call-to-Action, About, Services, Testimonials, Call-to-Actions, "
+"Newsletter and Instagram to display your services and help establish your "
+"business quickly. It is also WooCommerce compatible and works well with LMS "
+"add-ons like LearnDash and TutorLMS. This theme is optimized for speed, "
+"SEO-friendly, and easy to use. Executive Coach is translation-ready, "
+"Schema-friendly, and RTL script-ready."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://blossomthemes.com/"
+msgstr ""
+
+#: functions.php:650
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:651
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:652
+msgctxt "Tertiary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:653
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr ""

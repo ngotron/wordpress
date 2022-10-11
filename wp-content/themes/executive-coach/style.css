@@ -1,0 +1,172 @@
+/*
+Theme Name: Executive Coach
+Theme URI: https://blossomthemes.com/wordpress-themes/executive-coach/
+Template: coachpress-lite  
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Executive Coach is a WordPress theme designed specifically for coaches, mentors, therapists, speakers, leaders, counsellors, copywriters, course creators, medical practitioners and entrepreneurs who want to generate more leads. Using this theme, you can build a professional website to sell your services and introduce yourself. The theme includes sections like Banner with Call-to-Action, About, Services, Testimonials, Call-to-Actions, Newsletter and Instagram to display your services and help establish your business quickly. It is also WooCommerce compatible and works well with LMS add-ons like LearnDash and TutorLMS. This theme is optimized for speed, SEO-friendly, and easy to use. Executive Coach is translation-ready, Schema-friendly, and RTL script-ready.
+Check theme details at https://blossomthemes.com/wordpress-themes/executive-coach/, demo at https://blossomthemes.com/theme-demo/?theme=executive-coach, documentation at https://docs.blossomthemes.com/executive-coach/, and get support at https://blossomthemes.com/support-ticket/.
+Version: 1.0.0
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: executive-coach
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+/* 
+
+/*================================
+SITE HEADER STYLE FIVE
+================================*/
+
+:root {
+    --primary-color: #f8a54a;
+    --primary-color-rgb: 248, 165, 74;
+    --secondary-color: #209690;
+    --secondary-color-rgb: 32, 150, 144;
+    --black-color: #171717;
+    --black-color-rgb: 23, 23, 23;
+    --white-color: #ffffff;
+    --white-color-rgb: 255, 255, 255;
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Gilda Display', sans-serif;
+    --cursive-font: "Corinthia";
+}
+
+.site-header.style-five .header-main .nav-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.site-header.style-five .header-main .button-wrap {
+    padding-left: 40px;
+}
+
+.site-header.style-five .header-main .header-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-header.style-five .header-main .header-block {
+    font-size: 0.7778em;
+    letter-spacing: 0.5px;
+}
+
+.site-header.style-five .header-main .header-block+.header-block {
+    margin-left: 30px;
+}
+
+.site-header.style-five .header-main .header-block svg {
+    color: var(--secondary-color);
+    margin-right: 5px;
+}
+
+.site-header.style-five .header-main .header-block svg.fa-phone {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+.site-header.style-five .header-main .header-block a {
+    color: var(--secondary-color);
+}
+
+.site-header.style-one .header-top .header-block svg,
+.site-header.style-one .header-top .header-block a {
+
+    color: rgba(var(--black-color-rgb), 0.7);
+}
+
+.site-header.style-five .header-bottom {
+    border-top: 1px solid rgba(var(--primary-color-rgb), 0.2);
+}
+
+.site-header.style-five .header-bottom .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.site-header.style-five .header-bottom .main-navigation {
+    align-items: flex-start;
+}
+
+.site-header.style-five .main-navigation .nav-menu>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.site-header.style-five .header-bottom .main-navigation .nav-menu>li:first-child>a {
+    padding-left: 0;
+}
+
+.site-header.style-five .header-right .header-social+.header-search {
+    margin-left: 25px;
+}
+
+.site-header.style-five .header-bottom .header-social+.header-cart,
+.site-header.style-five .header-bottom .header-search+.header-cart {
+    border-left: 1px solid rgba(var(--primary-color-rgb), 0.56);
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+/*================================
+Static Banner Five
+================================*/
+.site-banner.static-cta.style-five .banner-caption .banner-desc {
+    margin-top: 17px;
+}
+
+.site-banner.static-cta.style-five .banner-caption .banner-desc p {
+    margin-top: 0;
+}
+
+.site-banner.static-cta.style-five .banner-caption .banner-desc p:last-child {
+    margin-bottom: 0;
+}
+
+.site-banner.static-cta.style-five .item .banner-caption {
+    padding: 30px 0 0 0;
+
+}
+
+.site-banner.static-cta.style-five .item .banner-caption {
+    background: unset;
+}
+
+@media(min-width:992px) {
+    .site-banner.static-cta.style-five .item .banner-caption {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .site-banner.static-cta.style-five .item {
+        align-items: center;
+    }
+
+    .site-banner.static-cta.style-five .item.left {
+        flex-direction: row-reverse;
+    }
+
+    .site-banner.static-cta.style-five .banner-caption .banner-desc {
+        margin-top: 30px;
+    }
+
+    .site-banner.static-cta.style-five .item.right .banner-caption {
+        padding: 0 0 0 65px;
+    }
+
+    .site-banner.static-cta.style-five .item .wp-custom-header {
+        width: 50%;
+    }
+
+    .site-banner.static-cta.style-five .item.left .banner-caption {
+        padding: 0 65px 0 0;
+    }
+
+}
