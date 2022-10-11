@@ -132,6 +132,10 @@
     flex-basis: 50%;
 }
 
+.container__left li {
+    list-style: none;
+}
+
 .container__right {
     flex-basis: 50%;
 }
@@ -141,11 +145,26 @@ img {
     height: auto;
 }
 
-.container__right {
-    display: flex;
+.container {
+    margin-top: 20px;
 }
 
-.container__left--child div {
-    margin-top: 10px;
+.container__right {
+    display: flex;
+    margin-left: 20px;
+}
 
+
+
+.container__left--child div {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.container__left--child div:first-child {
+    margin-top: 0px;
+}
+
+.container__right--child div {
+    margin-left: 20px;
 }
