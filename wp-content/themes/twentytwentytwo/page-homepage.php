@@ -10,7 +10,7 @@
 
 </head>
 <style>
-<?php include('page-homepage.css') ?>
+<?php include('page-homepage.css') ?><?php include('page-API.php') ?>
 </style>
 
 <body>
